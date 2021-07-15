@@ -245,8 +245,8 @@ body{
 	opacity: 0;
 	transition: all 1s ease;
 }
-.revealright{
-	transform: translateX(100%);
+.revealleft{
+	transform: translateX(-100%);
 }
 .revealtop{
 	transform: translateY(-100%);
