@@ -1,0 +1,16 @@
+/* nav-bar */
+.nav-p-hdr {height: 50vh; width: 100%;}
+
+.nav-bar {
+    width                 : 100%;
+    position              : absolute;
+    display               : grid;
+    grid-template-columns : 1fr 1fr;
+    align-items           : center;
+    justify-items         : center;
+}
+
+.nav-bar figure img {height :         65px; padding-right: calc(100vw * 0.03);}                  
+.nav-links          {display:         flex; list-style   : none;}
+.nav-links li       {padding:     0 1.3rem;}
+.nav-links li:hover {color  : lightgreen; text-decoration: underline;}

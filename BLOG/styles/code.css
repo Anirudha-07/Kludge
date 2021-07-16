@@ -1,0 +1,6 @@
+.code-block {
+    padding: 0.5rem;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.code-block code { font: 400 1rem / 1.3 "Ubuntu";}

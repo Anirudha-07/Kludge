@@ -1,0 +1,26 @@
+/* header */
+.hdr {
+    height                : 50vh;
+    background-image      : url(/photo-1526374965328-7f61d4dc18c5.jpeg);
+    background-size       : cover;
+    background-position   : center center;
+    display               : grid;
+    grid-template-columns : 25% [start] 50% [end] 25%;
+    align-items           : center;
+    box-shadow            : 0 0 0.5rem 0.05rem hsl(0, 0%, 50%);
+}
+
+.hdr-cont{
+    width       :        100%;
+    grid-column : start / end;
+}
+
+.hdr p , .hdr time {color: hsl(210, 000%,  90%);}
+.hdr h1, .hdr h2   {color: hsl(100, 100%, 100%);}
+.nav-links         {color: hsl(100, 100%, 100%);}
+
+/* TODO: Three-dashed option for nav-links */
+@media (max-width: 1023px){
+    .nav-bar {display: none;}
+    .hdr     {grid-template-columns : 10% [start] auto [end] 10%;}
+}

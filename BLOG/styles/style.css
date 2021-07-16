@@ -1,0 +1,42 @@
+.blg-cont {
+    margin-top: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% [start] 50% [end] 25%;
+}
+
+@media (max-width: 1200px){
+    .blg-cont {
+        grid-template-columns: 10% [start] 80% [end] 10%;
+    }
+}
+
+.nth-blog {
+    grid-column: start / end;
+    padding-bottom: 2.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.nth-blog h1                        {font: 700 1.4rem / 1.2 "Ubuntu"; color: hsl(000,  0%, 20%);}
+.nth-blog h2                        {font: 400 1.0rem / 1.2 "Ubuntu"; color: hsl(000,  0%, 33%);}
+.nth-blog time                      {font: 500 0.8rem / 1.2 "Ubuntu"; color: hsl(000, 75%, 80%);}
+.nth-blog p                         {font: 500 0.8rem / 1.2 "Ubuntu"; color: hsl(000, 75%, 80%);}
+.nth-blog span                      {font: 700 0.6rem / 0.9 "Ubuntu"; color: hsl(000,  0%, 33%);}
+
+.nth-blog h3                        {padding-bottom: 0.5rem;}
+.nth-blog h2                        {padding-bottom: 0.5rem;}
+.nth-blog h1                        {padding-bottom: 0.1rem;}
+
+
+.blog-details-card {
+    display: flex;
+}
+.emt {
+    width: 0.5vw;
+}
+
+.cfv{
+    width: 20%;
+    margin: 0;
+}

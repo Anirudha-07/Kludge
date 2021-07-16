@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/article.css">
+        <link rel="stylesheet" href="styles/code.css">
+        <link rel="stylesheet" href="styles/nav_bar.css">
+        <link rel="stylesheet" href="styles/hdr.css">
+        <link rel="stylesheet" href="styles/blog_rules.css">
+        <link rel="stylesheet" href="styles/article-image.css">
+        <title>Blog-Title</title>
+
+
+    </head>
+    <body>
+        <div class="nav-p-hdr">
+            <nav class="nav-bar">
+                <figure>
+                    <img src="kludge.jpeg">
+                </figure>
+                <ul class="nav-links">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">BLOGS</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">TEAM</a></li>
+                </ul>
+            </nav>
+
+            <!-- Header -->
+            <div class="hdr">
+                <div class="hdr-cont">
+                    <!-- Heading -->
+                    <h1><a href="#the-lorem"> The <em>Lorem Ipsum </em> dolor sit consec adipisicing.</a></h1>
+
+                    <!-- Sub Heading -->
+                    <h2>Pariatur, mollitia!</h2>
+
+                    <!-- Blog Details -->
+                    <div class="blog-details">
+                        <p class="blog-from">Lorem Ipsum</p>
+                        <time datetime="11-07-2021" class="blog-date">July, 11, 2021</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Blog Starts -->
+        <article id="the-lorem">
+
+            
+            <!-- use <a href="url.." target="_blank"> TEXT </a> for linking a website to the text -->
+            <!-- use <span class=""> TEXT </span> to underline the text-->
+            <!-- (Image & Code)-Sizes (inc. order): size-1, size-2, size-3, size-4, size-5, size-6 -->
+
+            <!-- Intro-section -->
+            <p>
+                <em>Lorem ipsum</em> dolor sit amet <span class="und-shadow"> <a href="https://loremipsum.io/" target="_blank">consectetur adipisicing</a> </span> elit. Id aut esse placeat adipisci eveniet cum explicabo ad rem tempora temporibus, obcaecati, assumenda, ab vero maxime perferendis pariatur minus expedita veritatis!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut esse placeat adipisci eveniet cum explicabo ad rem tempora temporibus, obcaecati, assumenda, ab vero maxime perferendis pariatur minus expedita veritatis!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aut esse placeat adipisci eveniet cum explicabo ad rem tempora temporibus, obcaecati, assumenda, ab vero maxime perferendis pariatur minus expedita veritatis!
+            </p>
+
+            <!-- photo-section -->
+            <figure class="size-3">
+                <img src="naruto.jpg">
+            </figure>
+            <figcaption><p class="cc">The<em> Sage Mode</em>.</p></figcaption>
+
+            <!-- Topic-heading -->
+            <h3>Adipisicing elit ducimus?</h3>
+            <!-- Paragraph -->
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat alias officia deleniti vitae totam ut similique reiciendis culpa quidem rem illum itaque mollitia eaque, tenetur, atque cumque ratione placeat debitis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat alias officia deleniti vitae totam ut similique reiciendis culpa quidem rem illum itaque mollitia eaque, tenetur, atque cumque ratione placeat debitis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>alias officia deleniti vitae totam ut similique</strong> reiciendis culpa quidem rem illum itaque mollitia eaque, tenetur, atque cumque ratione placeat debitis?
+            </p>
+           
+            <figure class="size-4">
+                <img src="naruto.jpg">
+            </figure>
+            <figcaption><p class="cc">The<em> Sage Mode</em>.</p></figcaption>
+
+            <h3>Adipisicing!!</h3>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat alias officia deleniti vitae totam ut similique reiciendis culpa quidem rem illum itaque mollitia eaque, tenetur, atque cumque ratione placeat debitis?
+                Lorem <em class="und-shadow">ipsum dolor</em> sit amet consectetur adipisicing elit. Quaerat alias officia deleniti vitae totam ut similique reiciendis culpa quidem rem illum itaque mollitia eaque, tenetur, atque cumque ratione placeat debitis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <em class="und-shadow"><strong>alias officia deleniti vitae totam ut similique</strong></em> reiciendis culpa quidem rem illum itaque mollitia eaque, tenetur, atque cumque ratione placeat debitis?
+            </p>
+            
+            <figure class="size-5">
+                <img src="naruto.jpg">
+            </figure>
+            <figcaption><p class="cc">The<em> Sage Mode</em>.</p></figcaption>
+
+
+            <!-- Code-section -->
+            <div class="code-block">
+                <code class="size-5">
+                    import numpy as np<br>
+                    image_copy = np.copy(image)<br><br>
+                    image_copy = cv2.cvtColor(image_copy, cv2.COLOR_BGR2RGB)
+                </code>
+            </div>
+        </article>
+    </body>
+</html>
