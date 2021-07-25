@@ -9,21 +9,6 @@ body{
 	/* overflow-x: hidden; */
 	/* background-color: aqua; */
 }
-/* navigation bar container */
-.nav-container{
-	z-index: 1;
-	display: grid;
-	grid-template-columns: 4fr 0.5fr 0.5fr 0.5fr 0.5fr;
-	width: 100vw;
-	height: 10vh;
-	background-color: darkcyan;
-	align-items: center;
-	padding-right: 1em;
-	position: fixed;
-	margin: 0;
-	padding: 0;
-}
-
 /* .logo {
 	background-image: url(icon.jpeg);
 	background-size: contain;
@@ -41,21 +26,6 @@ body{
 	color: white;
 	font-weight: 1000;
 	margin-left: 2em;
-}
-
-/* navigation bar links */
-.nav-container a{
-	margin-right: 0.5em;
-	font-size: larger;
-	padding: 1em;
-	text-decoration: none;
-	color: white;
-	text-align: center;
-}
-
-.nav-container a:hover{
-	color: black;
-	background-color: white;
 }
 
 /* background image */
@@ -76,35 +46,6 @@ body{
 	transform: translate(-35%,-60%);
 	font-size: 115px;
 }
-
-
-/* sidebar
-.sidebar{
-	display: grid;
-	width: 15.5vw;
-	height: auto;
-	background-color: darkcyan;
-	gap: 1vw;
-	top: 10vh;
-	position: -webkit-sticky;
-	position: sticky;
-	border: 0.2vw solid black;
-	padding: 1em;
-}
-
-.sidebar a{
-	text-decoration: none;
-	border: 0.2vw black solid;
-	color: black;
-	text-align: center;
-	font-size: 100%;
-	font-weight: bolder;
-	padding: 1%;
-}
-
-.sidebar a:hover{
-	background-color: white;
-} */
 
 
 .ham{
