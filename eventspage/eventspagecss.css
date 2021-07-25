@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	/* overflow-x: hidden; */
+	/* background-color: aqua; */
+}
+/* navigation bar container */
+.nav-container{
+	z-index: 1;
+	display: grid;
+	grid-template-columns: 4fr 0.5fr 0.5fr 0.5fr 0.5fr;
+	width: 100vw;
+	height: 10vh;
+	background-color: darkcyan;
+	align-items: center;
+	padding-right: 1em;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+/* .logo {
+	background-image: url(icon.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 10vh;
+	height: 8vh;
+	justify-self: flex-end;
+} */
+
+
+
+/* kludge */
+.name{
+	font-size: 45px;
+	color: white;
+	font-weight: 1000;
+	margin-left: 2em;
+}
+
+/* navigation bar links */
+.nav-container a{
+	margin-right: 0.5em;
+	font-size: larger;
+	padding: 1em;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.nav-container a:hover{
+	color: black;
+	background-color: white;
+}
+
+/* background image */
+.mainheading img{
+	position: relative;
+	width: 100%;
+	height: 80vh;
+	/* padding-bottom: 5vh; */
+}
+
+/* events heading */
+.mainheading p{
+	position: absolute;
+	color: white;
+	width: auto;
+	top: 60vh;
+	left: 35%;
+	transform: translate(-35%,-60%);
+	font-size: 115px;
+}
+
+
+/* sidebar
+.sidebar{
+	display: grid;
+	width: 15.5vw;
+	height: auto;
+	background-color: darkcyan;
+	gap: 1vw;
+	top: 10vh;
+	position: -webkit-sticky;
+	position: sticky;
+	border: 0.2vw solid black;
+	padding: 1em;
+}
+
+.sidebar a{
+	text-decoration: none;
+	border: 0.2vw black solid;
+	color: black;
+	text-align: center;
+	font-size: 100%;
+	font-weight: bolder;
+	padding: 1%;
+}
+
+.sidebar a:hover{
+	background-color: white;
+} */
+
+
+.ham{
+	position: fixed;
+	z-index: 99;
+	top: 2%;
+	left: 2%;
+}
+.fa-bars{
+	z-index: 1;
+	color: grey;
+	font-size: 3rem;
+	transition: all 500ms;
+}
+.fa-times{
+	color: white;
+	font-size: 3em;
+	transition: all 500ms;
+}
+.fa-bars:hover{
+	color: #380101;
+	transform: scale(1.1);
+}
+
+.fa-times:hover{
+	color: red;
+	transform: scale(1.1);
+}
+
+.navcont{
+	width: 30%;
+	height: 40%;
+	position: fixed;
+	z-index: 100;
+	top: 2%;
+	left: 2%;
+	transform: translateX(-150%);
+	transition: all 1s ease;
+}
+.links{
+	position: relative;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.links a , .links i{
+	text-align: center;
+	background-color: #1f1e1e;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	transition: all 500ms;
+}
+.links a{
+	font-size: 2em;
+}
+.links a:hover{
+	background-color: #7d827e;
+	color: black;
+	transform: scale(1.1);
+}
+
+
+
+
+
+
+.main-div{
+	margin: 0;
+	width: auto;
+	height: auto;
+	display: grid;
+	gap: 5vw;
+}
+
+/* sessions heading */
+.Sessions-heading{
+	margin-left: 10vw;
+	text-align: center;
+	font-size: 6em;
+	padding-top: 2vw;
+	padding-bottom: 0;
+}
+
+/* ek event ka container */
+.event-container{
+	margin-left: 10vw;
+	margin-right: 0;
+	width: 80vw;
+	height: auto;
+	border: 0.5vw solid black;
+	display: grid;
+	padding: 1vw;
+	gap: 1vw;
+}
+
+/* img class of the event */
+.poster{
+	width: 77vw;
+	/* padding-bottom: 1vw; */
+}
+
+/* img */
+.poster  img{
+	width: 100%;
+	height: 100%;
+}
+
+/* topic of the event */
+.event-topic{
+	border: 0.3vw solid black;
+	text-align: center;
+	font-size: 5vw;
+	color:black;
+}
+
+/* event details and description class */
+.event-details-ans-description{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/* width: 66vw; */
+	gap: 1vw;
+}
+
+/* event-details */
+.event-details{
+	border: 0.3vw solid black;
+	text-align: center;
+
+}
+
+.event-description{
+	border: 0.3vw solid black;
+	text-align: center;
+}
+/* main div over */
+
+
+
+
+
+
+
+
+
